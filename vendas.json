@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "nome": "Celular",
+    "vendedor": "Rodrigo",
+    "valor": "1800"
+  },
+  {
+    "id": "2",
+    "nome": "Daniel",
+    "vendedor": "geladeira",
+    "valor": "3000"
+  },
+  {
+    "id": "2",
+    "nome": "produto",
+    "vendedor": "vendedor",
+    "valor": "1500"
+  },
+  {
+    "id": "2",
+    "nome": "produto",
+    "vendedor": "vendedor",
+    "valor": "1500"
+  },
+  {
+    "id": "10",
+    "nome": "produto 2",
+    "vendedor": "vendedor 2",
+    "valor": "700"
+  },
+  {
+    "id": "15",
+    "nome": "geladeira",
+    "vendedor": "Eduardo",
+    "valor": "5000"
+  }
+]

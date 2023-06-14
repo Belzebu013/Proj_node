@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro de Venda</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body style="background-color: 333333;">
+    <div class="container" style="width: 25%; margin-top: 12%; background-color: #fff0ff; border-radius: 15px; padding: 15px;">
+    <h1>Cadastro de Venda</h1>
+
+    <form action="/cadastrar-venda" method="post">
+      <div class="form-group">
+        <label for="idVenda">ID da Venda:</label>
+        <input type="text" name="idVenda" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="nomeProduto">Nome do Produto:</label>
+        <input type="text" name="nomeProduto" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="nomeVendedor">Nome do Vendedor:</label>
+        <input type="text" name="nomeVendedor" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="valor">Valor:</label>
+        <input type="text" name="valor" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
